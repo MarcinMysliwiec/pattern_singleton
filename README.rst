@@ -11,10 +11,6 @@ Pattern Singleton
         :target: https://travis-ci.com/MarcinMysliwiec/pattern_singleton
         :alt: Build
 
-.. image:: https://readthedocs.org/projects/pattern-singleton/badge/?version=latest
-        :target: https://pattern-singleton.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
 .. image:: https://codecov.io/gh/MarcinMysliwiec/pattern_singleton/branch/master/graph/badge.svg?token=ZJCBWXAJPR
         :target: https://codecov.io/gh/MarcinMysliwiec/pattern_singleton
         :alt: Coverage
