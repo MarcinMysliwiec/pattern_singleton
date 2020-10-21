@@ -15,11 +15,6 @@ Pattern Singleton
         :target: https://codecov.io/gh/MarcinMysliwiec/pattern_singleton
         :alt: Coverage
 
-.. image:: https://pyup.io/repos/github/MarcinMysliwiec/pattern_singleton/shield.svg
-        :target: https://pyup.io/repos/github/MarcinMysliwiec/pattern_singleton/
-        :alt: Updates
-
-
 Description
 ~~~~~~~~~~~~
 
