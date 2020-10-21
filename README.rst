@@ -11,7 +11,7 @@ Pattern Singleton
         :alt: PyPi
 
 .. image:: https://img.shields.io/pypi/l/pattern_singleton?color=brightgreen
-        :target: https://pypi.python.org/pypi/pattern_singleton
+        :target: https://github.com/MarcinMysliwiec/pattern_singleton/blob/master/LICENSE
         :alt: License
 
 .. image:: https://travis-ci.com/MarcinMysliwiec/pattern_singleton.svg
@@ -28,7 +28,7 @@ Description
 My implementation of Singleton Design Pattern based on metaclass method.
 
 
-* Free software: MIT license
+* Free software: `MIT <https://github.com/MarcinMysliwiec/pattern_singleton/blob/master/LICENSE>`__ license
 * Documentation: https://pattern-singleton.readthedocs.io.
 
 Installation
