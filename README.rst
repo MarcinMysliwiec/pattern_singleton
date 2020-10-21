@@ -38,7 +38,7 @@ Just use (No other package is needed):
 
 .. code-block:: sh
 
-    $ pip install patternSingleton
+    $ pip install pattern-singleton
 
 
 Example Usage
@@ -46,7 +46,7 @@ Example Usage
 
 .. code-block:: python
 
-    from patternSingleton import Singleton
+    from pattern_singleton import Singleton
 
 
     class Example(metaclass=Singleton):
