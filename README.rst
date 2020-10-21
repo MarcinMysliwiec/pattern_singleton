@@ -24,6 +24,8 @@ Pattern Singleton
         :alt: Updates
 
 
+Description
+~~~~~~~~~~~~
 
 My implementation of Singleton Design Pattern based on metaclass method.
 
@@ -31,16 +33,46 @@ My implementation of Singleton Design Pattern based on metaclass method.
 * Free software: MIT license
 * Documentation: https://pattern-singleton.readthedocs.io.
 
+Installation
+~~~~~~~~~~~~
 
-Features
---------
+Just use (No other package is needed):
 
-* TODO
+.. code-block:: sh
+
+    $ pip install patternSingleton
+
+
+Example Usage
+~~~~~~~~~~~~~
+
+.. code-block:: python
+
+    from patternSingleton import Singleton
+
+
+    class Example(metaclass=Singleton):
+        def __init__(self):
+            self.variable = 1
+
+
+    if __name__ == '__main__':
+        example_01 = Example()
+        example_02 = Example()
+
+        print(example_01.variable)  # displays 1
+        print(example_02.variable)  # displays 1
+
+        example_01.variable = 2     # changes value for every instance of Example class
+
+        print(example_01.variable)  # displays 2
+        print(example_02.variable)  # displays 2
+
 
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+This package was created by `Marcin Mysliwiec <https://github.com/MarcinMysliwiec>`__ with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
