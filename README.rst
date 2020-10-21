@@ -29,7 +29,7 @@ My implementation of Singleton Design Pattern based on metaclass method.
 
 
 * Free software: `MIT <https://github.com/MarcinMysliwiec/pattern_singleton/blob/master/LICENSE>`__ license
-* Documentation: https://pattern-singleton.readthedocs.io.
+* But I would appreciate a star on `GitHub <https://github.com/MarcinMysliwiec>`__
 
 Installation
 ~~~~~~~~~~~~
