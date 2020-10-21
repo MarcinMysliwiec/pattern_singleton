@@ -7,7 +7,7 @@ Pattern Singleton
         :target: https://pypi.python.org/pypi/pattern_singleton
         :alt: PyPi
 
-.. image:: https://img.shields.io/travis/MarcinMysliwiec/pattern_singleton.svg
+.. image:: https://travis-ci.com/MarcinMysliwiec/pattern_singleton.svg
         :target: https://travis-ci.com/MarcinMysliwiec/pattern_singleton
         :alt: Build
 
