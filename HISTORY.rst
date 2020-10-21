@@ -2,10 +2,15 @@
 History
 =======
 
+1.1.0
+~~~~~~~~~~~~~~~~~~~
+
+* Multi thread support
+
 1.0.1
 ~~~~~~~~~~~~~~~~~~~
 
-* Newest release
+* Documentation refactor
 
 1.0.0
 ~~~~~~~~~~~~~~~~~~~

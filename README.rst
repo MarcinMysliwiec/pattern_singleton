@@ -25,11 +25,16 @@ Pattern Singleton
 Description
 ~~~~~~~~~~~~
 
-My implementation of Singleton Design Pattern based on metaclass method.
-
+Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+This implementation of Singleton Design Pattern is based on metaclass method.
 
 * Free software: `MIT <https://github.com/MarcinMysliwiec/pattern_singleton/blob/master/LICENSE>`__ license
 * But I would appreciate a star on `GitHub <https://github.com/MarcinMysliwiec>`__
+
+Multithreaded
+~~~~~~~~~~~~~~~~
+
+This method provide proper handling for multi-thread environment by closing public threading lock while creating instance of Singleton subclass.
 
 Installation
 ~~~~~~~~~~~~

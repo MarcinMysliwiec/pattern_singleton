@@ -1,4 +1,7 @@
 """Main module."""
+import threading
+
+lock = threading.Lock()
 
 
 class Singleton(type):
@@ -15,6 +18,7 @@ class Singleton(type):
         argument do not affect the returned instance.
         """
         if cls not in cls._instances:
-            instance = super().__call__(*args, **kwargs)
-            cls._instances[cls] = instance
+            with lock:
+                if cls not in cls._instances:
+                    cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
         return cls._instances[cls]
