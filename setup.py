@@ -33,7 +33,7 @@ setup(
     description="Metaclass Singleton Pattern (supports Multi-thread).",
     install_requires=requirements,
     license="MIT license",
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
     long_description_content_type='text/x-rst',
     include_package_data=True,
     keywords=['pattern_singleton', 'singleton', 'design', 'pattern', 'metaclass', 'multi-thread'],
@@ -43,6 +43,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/MarcinMysliwiec/pattern_singleton',
-    version='1.1.0',
+    version='1.2.0',
     zip_safe=False,
 )
