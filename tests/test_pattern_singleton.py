@@ -37,3 +37,5 @@ def test_content(response):
 
     print(example_01.variable)  # displays 2
     print(example_02.variable)  # displays 2
+
+    assert example_01.variable == example_02.variable

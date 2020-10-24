@@ -7,11 +7,16 @@ python:
   - 3.6
 
 # Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
-install: pip install -U tox-travis
+install:
+  - pip install codecov coverage pytest pytest-cov
+  - pip install -U tox-travis
 
 # Command to run tests, e.g. python setup.py test
-script: tox
-
+script:
+  - tox
+  - coverage run -m pytest --cov-report xml --cov=pattern_singleton tests/
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -f coverage.xml -F ui
 # Assuming you have installed the travis-ci CLI tool, after you
 # create the Github repo and add it to Travis, run the
 # following command to finish PyPI deployment setup:
